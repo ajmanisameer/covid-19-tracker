@@ -48,7 +48,7 @@ export default {
     },
    async clearCountryData(){
       this.loading = true
-     const data = await this.fetchCovidData()
+     const data = await this.fetchCovidData() 
      this.title = 'Global'
      this.stats = data.Global
      this.loading = false
